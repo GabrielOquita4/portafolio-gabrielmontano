@@ -1,0 +1,272 @@
+:root {
+    --primary: white;
+    --primary-font: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero {
+    background-color: #222222;
+    margin-bottom: 7rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 17rem;
+}
+
+.navbar__logo {
+    display: flex;
+
+}
+
+.navbar__list {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar__item {
+    transition: color 0.3s;
+    color: white;
+}
+
+.navbar__item:hover {
+    text-decoration: underline;
+}
+
+
+.hero__avatar-image {
+    height: 42rem;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.hero__introduction {
+    font-size: 5rem;
+    text-align: center;
+    line-height: 8.4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.hero__description{
+    font-size: 2.3rem;
+    text-align: center;
+    color: gray;
+    width: 85%;
+    padding-left: 15%;
+}
+
+.hero_actions{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero__button-contact {
+    background: var(--primary);
+    padding: 2.6rem 0;
+    width: 23.6rem;
+    border-radius: 3.5rem;
+    border: none;
+}
+
+.hero__button-vitae {
+    background-color: black;
+    padding: 2.6rem 0;
+    width: 23.6rem;
+    border-radius: 3.5rem;
+    border-color: white;
+    color: white;
+}
+
+.technologies__title {
+    display: flex;
+    justify-content: center;
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 8.4rem;
+    font-weight: 900;
+    color: gray;
+}
+
+.technologies__image {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.projects__content {
+    margin-bottom: 5rem;
+
+}
+
+.projects__title {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 8.4rem;
+    font-weight: 900;
+    color: #ffa500;
+
+}
+
+.projects__container {
+    display: flex;
+
+    .projects__image-html {
+        padding-left: 30rem;
+    }
+
+    .projects__image-css {
+        padding-left: 1rem;
+
+    }
+
+    .projects__text-html {
+        padding-left: 30rem;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    .projects__text-css {
+        padding-left: 1rem;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        font-weight: 800;
+
+    }
+
+}
+
+.experience__title {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    font-size: 3.4rem;
+    text-align: center;
+    line-height: 8.4rem;
+    font-weight: 900;
+    color: blue;
+
+
+
+}
+
+.experience__container {
+    display: flex;
+    padding-left: 29rem;
+    color: white;
+    gap: 2rem;
+}
+
+.experience__information-apple {
+    display: flex;
+    padding-left: 29rem;
+    color: white;
+    gap: 2rem;
+}
+
+.experience__information-meta {
+    display: flex;
+    padding-left: 29rem;
+    color: white;
+    gap: 2rem;
+}
+
+.experience__paragraph {
+    color: gray;
+    padding-left: 29rem;
+    width: 90%;
+    margin-bottom: 50px;
+
+}
+
+
+.footer {
+    background-color: #191919;
+}
+
+
+.footer__information {
+    display: flex;
+    flex-direction: column;
+    padding-left: 164px;
+    margin: 12 auto;
+}
+
+.footer__contact {
+    color: white;
+    font-size: 2rem;
+
+}
+
+.footer__paragraph {
+    color: gray;
+    font-size: 2rem;
+    width: 90%;
+}
+
+.footer__email {
+    display: flex;
+    padding-left: 164px;
+    img {
+        width: 25px
+    }
+}
+
+.footer__email-text {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.footer__media {
+    display: flex;
+    padding-left: 164px;
+    gap: 2rem;
+
+    img {
+        width: 23px
+    }
+}
